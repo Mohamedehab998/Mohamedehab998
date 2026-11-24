@@ -11,3 +11,5 @@ I maintain small tools for Arabic text, localization, and PDF extraction. The pr
 ## Upstream work
 
 [pdfplumber #1442](https://github.com/jsvine/pdfplumber/pull/1442) proposes speeding up text extraction from tall tables while preserving PDF text order. On a synthetic table with 750 rows, extraction took 13.57 seconds before the change and 0.27 seconds after it. The pull request includes the benchmark and tests for row boundaries and empty rows.
+
+[Translate Toolkit #6772](https://github.com/translate/translate/pull/6772) proposes a `poconflicts` option to separate reports for distinct source strings, even when their filename stems match.
